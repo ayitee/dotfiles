@@ -1,15 +1,17 @@
-theme = Catppuccin Mocha
-background = 000000
+theme = Atom One Dark
+#theme = Catppuccin Mocha
+background = #000000
 background-opacity = 0.7
-background-blur-radius = 20
+background-blur-radius = 16
 
 font-family = JetBrainsMono Nerd Font Mono
-font-size = 19
-
-background-blur-radius = 20
+font-size = 18
 
 mouse-hide-while-typing = true
 
-window-decoration = none
+window-decoration = 
 
 macos-option-as-alt = true
+
+# Keybinds
+keybind = opt+shift+l=text:|
