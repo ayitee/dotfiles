@@ -1,0 +1,59 @@
+# Starship Prompt
+eval "$(starship init zsh)"
+
+# fzf
+eval "$(fzf --zsh)"
+
+# zsh-completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
+autoload -Uz compinit
+compinit
+
+# Aliases - ls/eza
+alias ls='eza'
+alias ll='eza -la'
+alias la='eza -a'
+alias lt='eza --tree'
+alias llt='eza -la --tree'
+
+# Aliases - git
+alias gs='git status'
+alias ga='git add'
+alias gaa='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
+alias gd='git diff'
+alias gundo='git reset --hard HEAD~1'
+
+# Aliases - misc
+alias reload='source ~/.zshrc'
+
+alias help='echo "
+=== Git Aliases ===
+gs      - git status
+ga      - git add
+gaa     - git add .
+gc      - git commit -m
+gp      - git push
+gpl     - git pull
+gd      - git diff
+gundo   - git reset --hard HEAD~1
+
+=== eza Aliases ===
+ls      - eza
+ll      - eza -la
+la      - eza -a
+lt      - eza --tree
+llt     - eza -la --tree
+
+=== Misc ===
+reload  - source ~/.zshrc
+help    - show this glossary
+"'
+
+# PATH
+export PATH="/opt/homebrew/bin:$PATH"
