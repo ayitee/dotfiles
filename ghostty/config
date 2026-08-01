@@ -15,3 +15,4 @@ macos-option-as-alt = true
 
 # Keybinds
 keybind = opt+shift+l=text:|
+keybind = opt+n=text:~
