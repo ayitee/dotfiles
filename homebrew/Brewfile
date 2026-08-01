@@ -1,0 +1,65 @@
+# Open-source formatting library for C++
+brew "fmt"
+# WHATWG-compliant and fast URL parser written in modern C++
+brew "ada-url"
+# Generic-purpose lossless compression algorithm by Google
+brew "brotli"
+# Asynchronous DNS library
+brew "c-ares"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# Modern, maintained replacement for ls
+brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# C port of the HdrHistogram
+brew "hdrhistogram_c"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@78"
+# HTTP/2 C Library
+brew "libnghttp2"
+# HTTP/3 library written in C
+brew "libnghttp3"
+# IETF QUIC protocol implementation
+brew "libngtcp2"
+# Multi-platform support library with a focus on asynchronous I/O
+brew "libuv"
+# Find what models run on your hardware
+brew "llmfit"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# Apple Silicon Monitor Top written in Go Lang
+brew "mactop"
+# C++ lexer for extracting named exports from CommonJS modules
+brew "merve"
+# Deep clean and optimize your Mac
+brew "mole"
+# Library for decimal floating point arithmetic
+brew "mpdecimal"
+# Library of byte handling functions extracted from Node.js core
+brew "nbytes"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interactive GPU process monitor
+brew "nvtop"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Professional grade Roblox development tools
+brew "rojo"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+cask "font-jetbrains-mono-nerd-font"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Keyboard-driven, vim-like browser based on PyQt5
+cask "qutebrowser"
