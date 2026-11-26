@@ -1,0 +1,124 @@
+{
+    "description": "K380s: Fn + Control + Arrows (Halves) & C/F/R (Center/Fill/Restore)",
+    "manipulators": [
+        {
+            "description": "Tile Left Half",
+            "from": {
+                "key_code": "home",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Tile Right Half",
+            "from": {
+                "key_code": "end",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Tile Top Half / Maximize",
+            "from": {
+                "key_code": "page_up",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "up_arrow",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Tile Bottom Half",
+            "from": {
+                "key_code": "page_down",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "down_arrow",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Center Window",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "c",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Fill / Zoom Window",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "f",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Restore Window Size",
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": ["left_control"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": ["fn", "left_control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
